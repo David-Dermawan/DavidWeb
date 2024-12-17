@@ -141,6 +141,7 @@ body {
 
     #container p {
         font-size: 25px;
+        font-weight: 200;
     }
 
     #container h2 {
@@ -149,6 +150,8 @@ body {
 
     #explanation p {
         font-size: 15px;
+        font-weight: 300;
+        line-height: 23px;
     }
 
     #explanation {
@@ -160,15 +163,17 @@ body {
         display: flex;
         flex-direction: column;
         border: none;
+        margin-top: 50px;
     }
 
     #card p {
-        font-size: 15px;
-        padding-bottom: 70px;
+        font-size: 12px;
+        padding-bottom: 90px;
+        font-weight: 400;
     }
 
     #card img {
-        padding: 10px;
-        width: 20%;
+        padding: 20px;
+        width: 28%;
     }
 }
