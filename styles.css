@@ -9,115 +9,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: hsl(30, 38%, 92%);
 }
 
-#container {
-    width: 700px;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 30px;
+li {
+    list-style-type: none;
+    padding: 20px;
 }
 
-#image-container, #description {
-    height: 100%;
-    width: 50%;
-}
-
-#parfume {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-}
-
-#description {
-    padding: 45px;
-    padding-right: 60px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    font-family: 'Montserrat';
-    line-height: 1.5;
-    font-size: 14px;
-    font-weight: 400;
-    color: gray;
-    background-color: white;
-}
-
-
-
-#description h3 {
+li a{
+    text-decoration: none;
+    color: cadetblue;
     font-size: 30px;
-    font-family: 'Fraunces';
-    line-height: 1;
-    margin-right: 40px;
-    color: black;
-}
-
-button {
-    width: 100%;
-    height: 60px;
-    border-radius: 10px;
-    background-color: hsl(158, 36%, 37%);
-    color: white;
-    font-weight: bold;
-    border-width: 0;
-}
-
-button:hover {
-    background-color: hsl(158, 95%, 17%);
-    cursor: pointer;
-}
-
-#price-container{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-#discount-price {
-    color: hsl(158, 36%, 37%);
-    font-weight: bold;
-    font-size: 28px;
-    font-family: Fraunces;
-}
-
-#original-price {
-    font-weight: 500;
-    color: gray;
-    font-family: 'Fraunces';
-}
-
-@media (max-width: 710px) {
-    #description{
-        gap: 20px;
-    }
-}
-
-@media (max-width: 400px) {
-    #container {
-        flex-direction: column; 
-        height: 750px;
-    }
-
-    #image-container, #description {
-        height: 50%;
-        width: 100%;
-    }
-
-    #image-container {
-        height: 30%;
-    }
-
-    #image-container img {
-        object-fit: cover;
-    }
-    #description{
-        padding: 25px;
-        gap: 10px;
-    }
 }
